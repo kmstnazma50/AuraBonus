@@ -125,7 +125,8 @@
       display: inline-flex;
       align-items: center;
       gap: 12px;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
+      white-space: nowrap;
       justify-content: center;
     }
 
@@ -133,6 +134,25 @@
       background: none;
       -webkit-text-fill-color: #fb923c;
       font-size: 2rem;
+    }
+
+    @media (max-width: 550px) {
+      .hero h1 {
+        font-size: 1.4rem;
+        gap: 8px;
+      }
+      .hero h1 i {
+        font-size: 1.3rem;
+      }
+    }
+    @media (max-width: 400px) {
+      .hero h1 {
+        font-size: 1.2rem;
+        gap: 6px;
+      }
+      .hero h1 i {
+        font-size: 1.1rem;
+      }
     }
 
     .stats-card {
@@ -451,48 +471,48 @@
 </div>
 
 <script>
-  // ==================== 30 NEW LINKS (glamourpicklessteward.com) ====================
+  // ==================== 30 NEW LINKS (smelthrsfranz.com) ====================
   const ALL_LINKS = [
-    "https://glamourpicklessteward.com/ekftmjay?key=a3bcdac2cb0bd7a6020d40922f7270fa",
-    "https://glamourpicklessteward.com/b8rcwfvk2?key=bee43680b8abcaa9eaac72b2d7d51248",
-    "https://glamourpicklessteward.com/qdkandc8?key=37f0b5ee4f459902a0ac9fce7f421c91",
-    "https://glamourpicklessteward.com/ma42ihw6tb?key=8a0afac288f13d02a736d6e289c77d5c",
-    "https://glamourpicklessteward.com/ptkisixvy?key=0f31c0c682e1903173090542fd8ba334",
-    "https://glamourpicklessteward.com/hxuj4a218?key=3ebc6a4259ffb727d17681144bcc8445",
-    "https://glamourpicklessteward.com/zjwr3rwag?key=32740afa40e22dfebc5f51c058c18626",
-    "https://glamourpicklessteward.com/p4sf2yufjp?key=7d85356bfd38e9ab7284f0680444a7c0",
-    "https://glamourpicklessteward.com/d0i7rrz8?key=1c1bbacd75262bce1585d8383ac080a4",
-    "https://glamourpicklessteward.com/mnf8k2kvk?key=7db2ff6dd54b939d5eb52f5d08b1ced9",
-    "https://glamourpicklessteward.com/rm4kukwsy?key=b9b41a08736b8b7b79e0b4c2aa6284d1",
-    "https://glamourpicklessteward.com/ezyvqtve?key=d32e3ff44808997f3d54348e715c7ce4",
-    "https://glamourpicklessteward.com/wb7jj85udn?key=db371fb27187f5a1954da03c06340e8f",
-    "https://glamourpicklessteward.com/ffackiqv4v?key=96797846e6972036daa800f697beb1c3",
-    "https://glamourpicklessteward.com/hgg2125qsp?key=fa93953f3796fe39169fca88b98eddeb",
-    "https://glamourpicklessteward.com/p9dbazv1g?key=ae8b4db112c65bcab7fafaa6d2670f86",
-    "https://glamourpicklessteward.com/cr9dbuwwn?key=a995871d39080bd67e8fa431d3c46d7a",
-    "https://glamourpicklessteward.com/in4j06m4f?key=9313a0ec43367e52393485c25a9275aa",
-    "https://glamourpicklessteward.com/qcwxq534?key=8aca406a56983fd3c3ab4f2c9dd22e51",
-    "https://glamourpicklessteward.com/dtd532kyu?key=24fd0cfe4bce6671ac318742509de0d5",
-    "https://glamourpicklessteward.com/dfststrwv?key=cc128d007255d65d3b2737caf3c9e6be",
-    "https://glamourpicklessteward.com/h9ce264xg9?key=2de6231645901c51bc99b3c2f7cc4537",
-    "https://glamourpicklessteward.com/qdnswi8kzz?key=27b87bbd8e010ef790f7e01bd268adbb",
-    "https://glamourpicklessteward.com/kkdcg82iy?key=6f3e11d51f7e464669c2ad3c54d39eb0",
-    "https://glamourpicklessteward.com/tj1y3m0i9?key=44c8de1ba16bab7753482583b8e60d7e",
-    "https://glamourpicklessteward.com/wes9uvri?key=b8af60474027cbc25e85238e1be14d7b",
-    "https://glamourpicklessteward.com/gwgj32s0?key=3c713638560f36559fa3e4e2c0e47832",
-    "https://glamourpicklessteward.com/b40rf0s0?key=9242fa05736f2602328d52d06ce0a9b5",
-    "https://glamourpicklessteward.com/z50gvxz4t?key=d17b0b9df19c06ca467812e7366b7234",
-    "https://glamourpicklessteward.com/uiui9hai3r?key=d17c0f232760d3eb512bcd61d3289463"
+    "https://smelthrsfranz.com/r9b09hzhxm?key=cf28e8b0043741367c307a2feb514e33",
+    "https://smelthrsfranz.com/nuxe70sdmp?key=f6e32623d7b86daf028d118b8c6794b6",
+    "https://smelthrsfranz.com/suszgkspt?key=97a032c962114b48755dc4e565db8810",
+    "https://smelthrsfranz.com/rb2utxj19?key=902ca155aa48f6949d42e93942a51dc5",
+    "https://smelthrsfranz.com/r7khdg43e?key=861187793b5014a19b3f58d061a25e2f",
+    "https://smelthrsfranz.com/kqftugu887?key=4dd5b322e88795b89bfc850d612a32ca",
+    "https://smelthrsfranz.com/c53jnkmg5?key=3c4ecba1e453ed90f0d827dc9d761a6c",
+    "https://smelthrsfranz.com/tnvdjvv2a?key=298b97e2ba57a1bd611cccdf5f492bf0",
+    "https://smelthrsfranz.com/mm9r40y7?key=00f3c177051e1ef5b1a752b81970edbe",
+    "https://smelthrsfranz.com/e67c0fdw8?key=4712699c507d38e50f7be5e1f89cdca0",
+    "https://smelthrsfranz.com/qtwrx6stw?key=ed550511d9a44f1247edbc2d0cdf6abe",
+    "https://smelthrsfranz.com/j1pwxtryx?key=1a339afc12560290c6dce7879dd9545e",
+    "https://smelthrsfranz.com/ksj6r2bs?key=7f960e4cacd20134a1febf2adb772cfd",
+    "https://smelthrsfranz.com/h7emm1ny3v?key=fef598be93ba168fa754b1570cf6cdb8",
+    "https://smelthrsfranz.com/cjgd3ixxs?key=dc203152fd6381d3dcd223c5911fcf34",
+    "https://smelthrsfranz.com/ui7ukpc0x?key=506316b4913122f47c8de97ac1245065",
+    "https://smelthrsfranz.com/azdurmbr?key=99bfb4e055d02157f4935f8f8d2807d0",
+    "https://smelthrsfranz.com/aspg0a385?key=2ca8f75cda531c7369d2ea9b2c147bda",
+    "https://smelthrsfranz.com/t7m3d2c7?key=f1883620df5dad25642652a60412233c",
+    "https://smelthrsfranz.com/zyz2u8fw?key=ae5e1e24aed46e28487b2f4665ba88c7",
+    "https://smelthrsfranz.com/p1dentmk?key=6def6d9dab7f71baf142f82733a8d812",
+    "https://smelthrsfranz.com/a1cvvrup2?key=3bf151ffa5eb34a5a17aa119f98120ad",
+    "https://smelthrsfranz.com/dr21wg7h?key=23ec8c102e8bb8c484b7e013452d4c8c",
+    "https://smelthrsfranz.com/xn6c9udw9?key=d699bca047e89f0752c466aff09cf874",
+    "https://smelthrsfranz.com/ytn4014b52?key=6c0b6d671ca95ab230cdc34dca4308fc",
+    "https://smelthrsfranz.com/ksinxit2?key=286eaa031e6cf51bdd5ae968ad39dcfc",
+    "https://smelthrsfranz.com/xw38gsda?key=d0ff9dfcd5aa60813886c495363e5e6c",
+    "https://smelthrsfranz.com/ziumfkzwvu?key=73b51056ad67c346d4763d0bec3944d6",
+    "https://smelthrsfranz.com/dbkycdz70?key=922b26c417d52db1d929b33cd77e8dd1",
+    "https://smelthrsfranz.com/etk1rys7m?key=75d7eca2fdd80b93a6d4dd2c7bc21307"
   ];
 
-  // ========== USER-FRIENDLY & AD-COMPLIANT OFFER NAMES (30 unique) ==========
+  // ========== USER-FRIENDLY & AD-COMPLIANT OFFER NAMES (30 unique, gentle and clear) ==========
   const OFFER_NAMES = [
-    "🌟 Daily Aura Gift", "🎁 Gentle Bonus Pack", "💎 Soft Touch Reward", "⚡ Easy Access Pass", "🍀 Lucky Leaf Token",
-    "🏆 Kind Achievement", "🚀 Smooth Boost", "🎯 Friendly Bonus", "🔑 Quiet Vault Key", "📀 Simple Digital Crate",
-    "🕹️ Calm Gamer Perk", "🎧 Gentle Audio Pack", "📱 Light Mobile Boost", "💡 Bright Simple Deal", "🛡️ Cozy Secure Vault",
-    "📚 Warm Insider Access", "🎨 Kind Creator Kit", "⚙️ Easy Utility Upgrade", "🔔 Gentle Flash Alert", "🌐 Soft Global Perks",
-    "🧩 Friendly Mystery Tile", "🎵 Calm Sound Pack", "📸 Soft Snapshot", "🕶️ Gentle Stealth Perk", "🌿 Pure Lucky Clover",
-    "🧭 Kind Navigator", "🎲 Simple Dice Roll", "🃏 Gentle Wild Card", "🎈 Soft Celebration", "⭐ Pure Aura Bonus"
+    "🌟 Daily Aura Gift", "🎁 Simple Bonus Pack", "💎 Easy Reward Gem", "⚡ Quick Access Pass", "🍀 Lucky Aura Token",
+    "🏆 Friendly Milestone", "🚀 Smooth Boost Voucher", "🎯 Clear Bonus Target", "🔑 Gentle Vault Key", "📀 Basic Digital Pack",
+    "🕹️ Casual Gamer Perk", "🎧 Calm Audio Reward", "📱 Light Mobile Bonus", "💡 Bright Daily Deal", "🛡️ Cozy Secure Plus",
+    "📚 Warm Insider Pass", "🎨 Kind Creator Kit", "⚙️ Simple Utility Perk", "🔔 Soft Flash Alert", "🌐 Gentle Web Access",
+    "🧩 Friendly Mystery Tile", "🎵 Peaceful Sound Pack", "📸 Easy Snapshot", "🕶️ Quiet Stealth Perk", "🌿 Pure Lucky Clover",
+    "🧭 Kind Navigator Bonus", "🎲 Simple Dice Reward", "🃏 Gentle Wild Card", "🎈 Soft Celebration Pack", "⭐ Pure Aura Bonus"
   ];
 
   // Matching icons for each offer
@@ -513,7 +533,7 @@
 
   // Get persistent shuffled order for this user
   function getShuffledIndices() {
-    const ORDER_KEY = "auraBonusShuffledOrderV1";
+    const ORDER_KEY = "auraBonusShuffledOrderV2";
     const saved = localStorage.getItem(ORDER_KEY);
     if (saved) {
       const parsed = JSON.parse(saved);
@@ -545,8 +565,8 @@
   const TOTAL_OFFERS = 30;
   let clickCounts = new Array(TOTAL_OFFERS).fill(0);
   let claimedStatus = new Array(TOTAL_OFFERS).fill(false);
-  const STORAGE_KEY = "auraBonusClicksV1";
-  const CLAIMED_KEY = "auraBonusClaimedV1";
+  const STORAGE_KEY = "auraBonusClicksV2";
+  const CLAIMED_KEY = "auraBonusClaimedV2";
 
   function loadCounts() {
     const saved = localStorage.getItem(STORAGE_KEY);
